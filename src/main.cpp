@@ -1,7 +1,11 @@
-#include <iostream>
-using namespace std;
+#include <sort.hpp>
 
 int main() {
-	cout << "Hello world" << std::endl;
-	return 0;
+	int* a;
+	int n;
+	std::cin >> n;
+	for (int i{};i < n;std::cin >> a[i++]);
+	bsort<int>(a);
+	print<int>(a);
+
 }
